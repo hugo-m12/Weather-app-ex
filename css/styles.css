@@ -1,0 +1,15 @@
+.mobile-container{
+  width: 390px;
+  height: 844px;
+  border: 1px solid ;
+  border-radius: 20px;
+  background-image: url("Img/sky-bg.png");
+}
+
+.main-text{
+  font-family:"Poppins", sans-serif;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  padding: 20px;
+}
