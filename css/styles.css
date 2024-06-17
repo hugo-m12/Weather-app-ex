@@ -54,6 +54,7 @@
 .house-img img{
   width: 390px;
   height: 390px;
+  filter: brightness(70%);
 }
 
 .weather-overlay{
@@ -65,14 +66,28 @@
   font-family: "Roboto", sans-serif;
   font-weight: bolder;
   border: 1px solid;
+  opacity: 90%;
   border-radius: 30px;
   background: rgb(46,51,90);
   background: linear-gradient(90deg, rgba(46,51,90,1) 0%, rgba(28,27,51,1) 100%); 
 }
 
-.divider{
+.divider2{
   border: 3px solid ;
   background: rgb(46,51,90);
+  filter: brightness(60%);
+  opacity: 90%;
+  background: linear-gradient(90deg, rgba(46,51,90,1) 0%, rgba(28,27,51,1) 100%); 
+}
+
+.divider{
+  border: 3px;
+  background: rgb(46,51,90);
+  filter: brightness(60%);
+  border-radius: 20px;
+  opacity: 90%;
+  Width: 48px;
+  Height: 5px;
   background: linear-gradient(90deg, rgba(46,51,90,1) 0%, rgba(28,27,51,1) 100%); 
 }
 
@@ -88,7 +103,7 @@
 }
 
 .wsection{
- border: 1px solid white;
+ border: 1px solid #D7D3E633;
  margin-top: 20px;
  border-radius: 30px;
  width: 60px;
@@ -96,6 +111,10 @@
  font-size: small;
  color: white;
  text-align: center;
+}
+
+.wsection:hover{
+  background-color: #48319D;
 }
 
 .wsection h2{
@@ -127,7 +146,7 @@
 
 .next-page{
   text-align: right;
-  margin-top: 45px;
+  margin-top: 33px;
   margin-right: 20px;
   font-family: "Poppins", sans-serif;
 }
@@ -150,16 +169,18 @@
   font-family: "Poppins" , sans-serif;
   margin-top: 40px;
   margin-left: 25px;
+  font-weight: 400;
 }
 
 .search-header input{
   border-radius: 10px;
-  border: 1px solid ;
+  border: 1px;
   width: 358px ;
   height: 36px;
   margin-left: 10px;
+  margin-bottom: 10px;
   color: white;
-  background-color: rgb(46,51,90);
+  background-color: rgb(29, 33, 59);
 }
 
 .search-header input:placeholder-shown{
@@ -170,7 +191,54 @@
 .weather-city{
   width: 342px;
   height: 184px;
-  top: 1px;
-  border-radius: 20px;
+  border-radius: 20px 100% 20px 20px;
+  margin-left: 20px;
+  margin-bottom: 40px;
   background: linear-gradient(90deg, #5936B4 0%, #362A84 103.55%);
+}
+
+.weather-city img{
+  width: 170px;
+  height: 170px;
+  padding: 0;
+  margin: 0;
+  position: relative;
+  bottom: 40px;
+  right: 85px;
+}
+
+.weather-city h2{
+ color: white;
+ font-family: "Poppins" , sans-serif;
+ margin: 0;
+ font-size: xxx-large;
+ padding: 23px;
+ font-weight: 400;
+ margin-top: 9px;
+ margin-left: -18px;
+}
+
+.weather-city h3{
+  color: white;
+  font-family: "Roboto" , sans-serif;
+  margin: 0;
+  font-weight: 300;
+}
+
+.weather-city p{
+  color: white;
+  font-family: "Roboto" , sans-serif;
+  font-weight: 100;
+  margin: 0;
+  margin-left: 25px;
+}
+
+.flex2{
+  display: flex;
+  flex-direction: row;
+  gap: 150px;
+  width: 20px;
+  height: 82px;
+  margin-left: 25px;
+  margin-bottom: 20px;
 }
