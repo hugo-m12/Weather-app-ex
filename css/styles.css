@@ -60,12 +60,11 @@
 .weather-overlay{
   z-index: 20;
   width: 390px;
-  height: 325px;
+  height: 319px;
   position: relative;
   bottom: 196px;
   font-family: "Roboto", sans-serif;
   font-weight: bolder;
-  border: 1px solid;
   opacity: 90%;
   border-radius: 30px;
   background: rgb(46,51,90);
